@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Hero;
+    src: url(./fonts/HeroLight-Regular.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Hero, Arial, Helvetica, sans-serif;
+}
