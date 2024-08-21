@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Hero;
-    src: url(./fonts/HeroLight-Regular.otf);
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
 }
 * {
     margin: 0;
@@ -41,4 +41,20 @@ a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.title-img {
+    display: flex;
+}
+
+.title-container {
+    display: flex;
+    max-width: 450px;
+    padding: 18px;
+}
+
+.title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
 }
