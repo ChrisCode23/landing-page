@@ -14,21 +14,24 @@ body {
 }
 
 .header {
-    height: 222px;
+    height: 345px;
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
+    padding: 0 200px;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .logo-links {
     display: flex;
     justify-content: space-between;
     padding: 14px;
+    margin-bottom: 48px;
 }
 
 .links ul{
@@ -45,16 +48,32 @@ a {
 
 .title-img {
     display: flex;
+    gap: 12px;
+    padding: 14px;
 }
 
 .title-container {
     display: flex;
-    max-width: 450px;
-    padding: 18px;
+    flex-direction: column;
+    align-items: flex-start;
+    
 }
 
 .title {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
+}
+
+.title-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.img {
+    background-color: #8f8c8c;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
 }
