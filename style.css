@@ -77,3 +77,42 @@ a {
     display: flex;
     flex: 1;
 }
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 48px;
+}
+
+.content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.item {
+    max-width: 200px;
+}
+
+.container img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.text {
+    text-align: center;
+}
+
+
