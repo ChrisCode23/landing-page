@@ -126,14 +126,31 @@ a {
     text-align: center;
 }
 
-.quote {
+.quote-container {
     background-color: #e5e7eb;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.quote-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
 }
 
 .quote-text {
     font-size: 36px;
     font-family: Roboto-LightItalic;
     
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: bold;
 }
 
 
